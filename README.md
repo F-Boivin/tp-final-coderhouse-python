@@ -26,8 +26,8 @@ Aplicación web tipo blog desarrollada con **Django**, proyecto integrador de lo
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/F-Boivin/blog-django-coder.git
-cd blog-django-coder
+git clone https://github.com/F-Boivin/tp-final-coderhouse-python.git
+cd tp-final-coderhouse-python
 
 # 2. Crear y activar entorno virtual
 python -m venv .venv
@@ -94,7 +94,7 @@ El grupo Moderadores se crea con `python manage.py crear_grupos` (idempotente) y
 ## Estructura del proyecto
 
 ```
-blog-django-coder/
+tp-final-coderhouse-python/
 ├── manage.py / requirements.txt
 ├── blog_project/          # Configuración (settings con env-vars, urls, wsgi)
 ├── posts/                 # App principal
@@ -132,7 +132,7 @@ La aplicación está **desplegada y operativa** en https://feboivin.pythonanywhe
 
 [Railway](https://railway.app) despliega aplicaciones directamente desde un repositorio de GitHub. El proceso sería:
 
-1. **Conectar el repo:** en Railway, *New Project → Deploy from GitHub repo* y seleccionar `blog-django-coder`. Railway detecta que es un proyecto Python.
+1. **Conectar el repo:** en Railway, *New Project → Deploy from GitHub repo* y seleccionar `tp-final-coderhouse-python`. Railway detecta que es un proyecto Python.
 2. **Variables de entorno:** en la pestaña *Variables*, definir:
    ```
    DJANGO_SECRET_KEY = <clave-segura-generada>
