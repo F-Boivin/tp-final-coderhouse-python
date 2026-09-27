@@ -4,7 +4,7 @@ Aplicación web tipo blog desarrollada con **Django**, proyecto integrador de lo
 
 **Autor:** Felipe Boivin
 
-🌐 **Aplicación desplegada (URL pública):** https://feboivin.pythonanywhere.com
+🌐 **Deploy:** la aplicación estuvo publicada en PythonAnywhere (`feboivin.pythonanywhere.com`) durante el curso; hoy ya no está en línea. El proceso está documentado en [Despliegue](#despliegue).
 
 ## Funcionalidades
 
@@ -115,9 +115,9 @@ tp-final-coderhouse-python/
 
 `settings.py` lee `DJANGO_SECRET_KEY`, `DJANGO_DEBUG` y `DJANGO_ALLOWED_HOSTS` de variables de entorno (con defaults de desarrollo), por lo que el proyecto está listo para producción sin cambios de código.
 
-### Deploy en producción: PythonAnywhere ✅
+### Deploy en producción: PythonAnywhere (durante el curso)
 
-La aplicación está **desplegada y operativa** en https://feboivin.pythonanywhere.com (plan gratuito). El proceso realizado:
+La aplicación estuvo **desplegada y operativa** en `feboivin.pythonanywhere.com` (plan gratuito) durante el curso; hoy ya no está en línea. El proceso realizado:
 
 1. **Clonado del repo** en la consola Bash de PythonAnywhere.
 2. **Virtualenv** (`mkvirtualenv blogenv`) + `pip install -r requirements.txt`.
@@ -156,7 +156,7 @@ La aplicación está **desplegada y operativa** en https://feboivin.pythonanywhe
 | **Ventajas** | Deploy automático en cada `git push`, PostgreSQL gestionada, variables de entorno y logs en tiempo real, muy buena experiencia de desarrollo. |
 | **Limitaciones** | El costo mensual es la principal; para un proyecto de portfolio de baja demanda, alternativas como PythonAnywhere (gratis, sin tarjeta) o Render (gratis, pero la app se duerme tras inactividad) pueden ser más convenientes. |
 
-> Railway se evaluó como alternativa pero se descartó por la falta de capa gratuita permanente. El deploy productivo se realizó en PythonAnywhere (ver sección anterior), cuya URL pública está operativa.
+> Railway se evaluó como alternativa pero se descartó por la falta de capa gratuita permanente. El deploy productivo se realizó en PythonAnywhere (ver sección anterior) y estuvo en línea durante el curso.
 
 
 ## Evaluación del proyecto (curso Coderhouse)
